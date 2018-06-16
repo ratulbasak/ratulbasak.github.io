@@ -40,7 +40,11 @@ sudo apt-get update && sudo apt-get install -y docker-ce=$(apt-cache madison doc
 {% endhighlight %}
 
 
+
+
 ![]({{ site.baseurl }}/public/kube-workflow.png)
+
+
 
 
 **Install Kubernetes in both nodes:**
