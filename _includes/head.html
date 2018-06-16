@@ -39,8 +39,8 @@
     <script type="text/javascript" >
     function genPDF() {
       var doc = new jsPDF();
-
-      doc.save()
+      doc.text(20,20, 'test message');
+      doc.save({{site.title}}'.pdf');
     }
     </script>
 
