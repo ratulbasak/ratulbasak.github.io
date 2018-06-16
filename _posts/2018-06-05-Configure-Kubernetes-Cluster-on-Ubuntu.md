@@ -39,6 +39,7 @@ sudo apt-get update
 sudo apt-get update && sudo apt-get install -y docker-ce=$(apt-cache madison docker-ce | grep 17.03 | head -1 | awk '{print $3}')
 {% endhighlight %}
 
+<br></br>
 
 
 
@@ -46,12 +47,13 @@ sudo apt-get update && sudo apt-get install -y docker-ce=$(apt-cache madison doc
 
 
 
+<br></br>
 
 **Install Kubernetes in both nodes:**
 Installing Kubeadm, kubelet and kubectl. You will install these packages on all of your machines:
-**kubeadm:** the command to bootstrap the cluster.
-**kubelet:** the component that runs on all of the machines in your cluster and does things like starting pods and containers.
-**kubectl:** the command line util to talk to your cluster.
+**kubeadm:** the command to bootstrap the cluster. <br></br>
+**kubelet:** the component that runs on all of the machines in your cluster and does things like starting pods and containers. <br></br>
+**kubectl:** the command line util to talk to your cluster. <br></br>
 
 {% highlight js %}
 sudo apt-get update && sudo apt-get install -y apt-transport-https curl
