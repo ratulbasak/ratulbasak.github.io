@@ -13,7 +13,7 @@ Skilled DevOps and System Administrator with experience in networking and progra
 
 You can connect with me:
 
-* [Gmail](ratulbasak93@gmail.com)
+* [Gmail](mailto:ratulbasak93@gmail.com)
 * [LinkedIn](http://www.linkedin.com/in/ratul-basak)
 * [GitHub](https://github.com/ratulbasak)
 * [StackOverflow](https://stackoverflow.com/users/8799395/ratul-basak)
