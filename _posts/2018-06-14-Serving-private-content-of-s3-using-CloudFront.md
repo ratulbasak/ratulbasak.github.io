@@ -5,7 +5,7 @@ title: Serving Private Content of S3 through CloudFront Signed URL
 
 
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  By completing this article we'll learn more about CloudFront, S3, IAM. Another article in <a href="https://medium.com/@ratulbasak93/serving-private-content-of-s3-through-cloudfront-signed-url-593ede788d0d">Medium</a>
 </div>
 
 *CloudFront* is a popular web service by <a href="https://aws.amazon.com">Amazon</a>. It speeds up distribution of static and dynamic content to the users. CloudFront rapidly distributes the contents by routing each user request to the edge location that can best serve your content. Typically, this is a CloudFront edge server that provides the fastest delivery to the viewer. You create a CloudFront distribution to tell CloudFront where you want content to be delivered from, and the details about how to track and manage content delivery. Then CloudFront uses computers — edge servers — that are close to your viewers to deliver that content quickly when someone wants to see it or use it.
@@ -20,9 +20,9 @@ In this post, we’ll see how we can serve the contents of s3 through CloudFront
 * *Restrict access to objects in CloudFront edge caches*
 * *Restrict access to objects in your Amazon S3 bucket*
 
-Create CloudFront Keypair. You need to login to your AWS account using root credentials. You cannot do this via an IAM user at the moment.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> Create CloudFront Keypair. You need to login to your AWS account using root credentials. You cannot do this via an IAM user at the moment.
+
 
 ![](https://cdn-images-1.medium.com/max/1000/1*8ibHvdNTy_yJhtxI32dcXw.png)
 
