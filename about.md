@@ -45,7 +45,7 @@ You can connect with me:
 
 ## Skills
 
-* **Cloud Platform** : Amazon Web Service, Azure
+* **Cloud Technologies** : Amazon Web Service, Azure
 * **Container Technologies** : Docker, Swarm, Kubernetes
 * **Continuous Integration** : Jenkins
 * **Configuration Automation** : Ansible, Python Fabric
