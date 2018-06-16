@@ -40,7 +40,9 @@
     function genPDF() {
       var doc = new jsPDF();
       doc.fromHTML($('#pdf').get(0), 20,20,{'width':500});
-      doc.save('test.pdf');
+      // doc.save('test.pdf');
+      doc.autoPrint();
+      doc.output("dataurlnewwindow");
     }
     </script>
 
