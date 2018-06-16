@@ -35,7 +35,14 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.js">
     </script>
    <!-- <script src="GeneratedPdf/html2canvas.js"></script>-->
-    <script src="{{ site.baseurl }}/PDF_Genrator.js"></script>
+    <!-- <script src="{{ site.baseurl }}/PDF_Genrator.js"></script> -->
+    <script type="text/javascript" >
+    function genPDF() {
+      var doc = new jsPDF();
+
+      doc.save()
+    }
+
 
 
 </head>
