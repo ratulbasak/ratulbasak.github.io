@@ -50,7 +50,7 @@
             var width = doc.internal.pageSize.width;
             var height = doc.internal.pageSize.height;
             height = ratio * width;
-            doc.addImage(image, 'JPEG', 0, 0, width-20, height-10);
+            doc.addImage(image, 'JPEG', 0, 0, width, height);
             doc.save('myPage.pdf'); //Download the rendered PDF.
          }
       });
