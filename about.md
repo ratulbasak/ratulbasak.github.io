@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-## Ratul Basak                           ![](/public/cutmypic.png)                    
+## Ratul Basak           <img align="right" width="100" height="100" src="{{ site.baseurl }}/public/cutmypic.png">                  
 
 <p class="message">
   Seeking opportunity to learn new tools and technologies and get involved in various communities. Love to work with Linux distributions and networking and penetration testing related researches. Learning advance networking technologies for improving skills...
